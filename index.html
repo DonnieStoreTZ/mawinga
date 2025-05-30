@@ -132,7 +132,12 @@
           let currentIndex = 0;
 
           function showProductInfo(entry) {
-            info.innerHTML = `
+            info.innerHTML = 
+              <div class="size-grid">
+                <div class="size-item">
+                  <span class="size-label">Small</span>
+                  <span class="size-value">${entry.Small} Pieces</span>
+                </div>`
               <div class="size-grid">
                 <div class="size-item">
                   <span class="size-label">Small</span>
